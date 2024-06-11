@@ -1,30 +1,16 @@
-# React + TypeScript + Vite
+# MoonLyb 📚🌙
+#### Made with React + TypeScript + Vite + Tailwind + Appwrite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## What is MoonLyb?
 
-Currently, two official plugins are available:
+#### MoonLyb is a social network focused on philosphy, books, readers and more. <br /> MoonLyb is a comfortable space where you can share your opinion and favorite books or authors...
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Social network 
 
-## Expanding the ESLint configuration
+#### Like whatever else social network, MoonLyb have a lot of functions like make a post, read posts etc... <br /> All this media is saved in a Appwrite proyect that contains all database.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Appwrite
 
-- Configure the top-level `parserOptions` property like this:
+#### Appwrite is an open-source Backend-as-a-Service (BaaS) platform that simplifies the development of web and mobile applications by providing a set of APIs for common backend services. It offers authentication, database management, file storage, cloud functions, and more, allowing developers to focus on building frontend components while Appwrite handles the backend infrastructure. With its user-friendly interface and flexible architecture, Appwrite accelerates the development process and enables seamless integration with various frontend frameworks and platforms. <br />
+#### All MoonLyb posts and users are saved in a Appwrite project that contains the database, users and storage.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
